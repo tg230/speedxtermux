@@ -1,0 +1,2 @@
+# speedxtermuxproject
+SpeedX termux otimization
