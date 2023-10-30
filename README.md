@@ -1,4 +1,4 @@
-# speedxtermuxproject
+# speedxtermux
 SpeedX termux otimization
 
 versão 1.0
