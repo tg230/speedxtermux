@@ -7997,7 +7997,7 @@ echo "${white}versão 1.0${default}"
 sleep 1.0
 script() {
 aq="$0"
-nd=4457
+nd=15572
 na=$(wc -c < "$aq") 
 if [ "$na" -ne "$nd" ]; then 
 exit 1 
