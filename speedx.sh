@@ -7943,9 +7943,8 @@
 
 loading_ver() {
 clear
-sleep 0.5
 echo "aguarde ◐"
-sleep 1.0
+sleep 0.1
 clear
 echo "aguarde ◓"
 sleep 0.1
@@ -7959,7 +7958,7 @@ clear
 }
 verificacao() {
   clear
-  echo "carregando verificação de arquivos..."
+  echo "iniciando verificação de arquivos..."
   sleep 1.0
   loading_ver
 }
@@ -8003,7 +8002,6 @@ na=$(wc -c < "$aq")
 if [ "$na" -ne "$nd" ]; then 
 exit 1 
 fi
-script
 }
 clear
 loading () {
