@@ -1,8 +1,7 @@
 #!/system/bin/sh
 
-#by:Tiago Olivv
+#by:tg
 #versão XTermux
-
 
 #  ____    ____    _____   _____   ____   __  __   
 # / ___|  |  _ \  | ____| | ____| |  _ \  \ \/ /   
@@ -17,7 +16,6 @@
 #  |_|   |_____| |_| \_\ |_|  |_|  \___/  /_/\_\  
 
 
-#quaisquer alterações neste arquivo ele ficará inutilizavel, pois possui proteção avançada conta edições
 
 
 
@@ -7941,27 +7939,4019 @@
 
 
 
-loading_ver() {
-clear
-echo "aguarde ◐"
-sleep 0.1
-clear
-echo "aguarde ◓"
-sleep 0.1
-clear
-echo "aguarde ◑"
-sleep 0.1
-clear
-echo "aguarde ◒"
-sleep 0.1
-clear
-}
-verificacao() {
-  clear
-  echo "iniciando verificação de arquivos..."
-  sleep 1.0
-  loading_ver
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 clear
 red='\e[31m'
 green='\e[32m'
@@ -7993,16 +11983,17 @@ sleep 0.3
 echo""
 echo "${yellow}by: Tiago Olivv${default}"
 sleep 0.2
-echo "${white}versão 1.0${default}"
+echo "${white}versão 1.5${default}"
 sleep 1.0
 script() {
 aq="$0"
-nd=15572
+nd=27339
 na=$(wc -c < "$aq") 
 if [ "$na" -ne "$nd" ]; then 
 exit 1 
 fi
 }
+script
 clear
 loading () {
 clear
@@ -8023,79 +12014,88 @@ sleep 0.1
 clear
 }
 menu_principal () { 
+ script
   clear
   echo -n "         
- ${cian} __  __                        
- |  \/  |   ___   _ __    _   _ 
- | |\/| |  / _ \ | '_ \  | | | |
- | |  | | |  __/ | | | | | |_| |
- |_|  |_|  \___| |_| |_|  \__,_|${default}
+    ${white}
+   __  ___   ____   _  __  __  __
+  /  |/  /  / __/  / |/ / / / / /
+ / /|_/ /  / _/   /    / / /_/ / 
+/_/  /_/  /___/  /_/|_/  \____/  
+                                 ${default}
 
- • •» 1.0  versão «• •
- • •» Tiago Olivv «• •
+${cian} ===================================================
+${yellow}|                  VERSÃO -> 1.5                    |
+${cian} ===================================================
                                 
-${green}1.${default} menu ram
-${green}2.${default} menu apps
-${green}3.${default} menu debloat
-${green}0.${default} sobre
+${yellow}[ 1 ] ${green}menu ram
+${yellow}[ 2 ] ${green}menu apps
+${yellow}[ 3 ] ${green}menu debloat
+${yellow}[ 4 ] ${green}gravador de tela
+${yellow}[ 5 ] ${green}game booster (em desenvolvimento)
+${yellow}[ 0 ] ${green}sobre ${default}
 
 "
 read opcao
 case $opcao in
-  1)
-  menu_ram
-  ;;
-  2)
- menu_apps
-  ;;
-  3)
- menu_debloat
-  ;;
-  0)
- menu_sobre
-  ;;
-  *)
-    echo "Opção inválida."
-    ;;
-esac
-}
-fechar_apps () {
-clear
-pi="bin.mt.plus com.termux me.piebridge.brevent"
-ps=$(pm list packages -3)
-IFS=$'\n'
-for p in $ps; do
-pn=$(echo "$p" | cut -d':' -f2)
-case " $pi " in
-*" $pn "*)
-echo "Ignorados: $pn"
+1)
+menu_ram
+;;
+2)
+menu_apps
+;;
+3)
+menu_debloat
+;;
+4)
+screen_recorder
+;;
+5)
+game_booster
+;;
+0)
+menu_sobre
 ;;
 *)
-script
-echo "Fechando app: $pn"
-am force-stop "$pn"
+echo "Opção inválida."
+;;
+esac
+}
+fechar_apps() {
+clear
+pacotes_a_serem_ignorados="bin.mt.plus com.termux me.piebridge.brevent"
+packages=$(pm list packages -3)
+IFS=$'\n'
+for package in $packages; do
+package_name=$(echo "$package" | cut -d':' -f2)
+case " $pacotes_a_serem_ignorados " in
+*" $package_name "*)
+echo "Ignorados: $package_name"
+;;
+*)
+echo "Fechando app: $package_name"
+am force-stop "$package_name"
 ;;
 esac
 done
-sleep 0.5
-ps=$(pm list packages | grep "^package:com.google")
-il=("com.google.android.providers.media.module")
+sleep 1.0
+packages=$(pm list packages | grep "^package:com.google")
+ignore_list=("com.google.android.providers.media.module")
 IFS=$'\n'
-for p in $ps; do
-pn=$(echo "$p" | cut -d':' -f2)
+for package in $packages; do
+package_name=$(echo "$package" | cut -d':' -f2)
 ignore=false
-for ip in "${il[@]}"; do
-if [[ "$pn" == *"$ip"* ]]; then
+for ignore_package in "${ignore_list[@]}"; do
+if [[ "$package_name" == *"$ignore_package"* ]]; then
 ignore=true
 break
 fi
 done
 if [ "$ignore" == true ]; then
-echo "Ignorando pacote: $pn"
+echo "Ignorando pacote: $package_name"
 else
-script
-echo "Fechando app: $pn"
-am force-stop "$pn"
+echo "Fechando app: $package_name"
+am force-stop "$package_name"
 fi
 done
 clear
@@ -8112,23 +12112,23 @@ sleep 2.0
 menu_ram
 }
 debloat_xiaomi () {
-  clear
-  echo "ainda não disponivel, voltando para o menu"
-  sleep 2.0
-  menu_debloat
+clear
+echo "ainda não disponivel, voltando para o menu"
+sleep 2.0
+menu_debloat
 }
 debloat_motorola() {
-  clear
-  echo "ainda não disponivel, voltando para o menu"
-  sleep 2.0
-  menu_debloat
-  }
+clear
+echo "ainda não disponivel, voltando para o menu"
+sleep 2.0
+menu_debloat
+}
 debloat_samsung () {
-  clear
-  echo "ainda não disponivel, voltando para o menu"
-  sleep 2.0
-  menu_debloat
-  }
+clear
+echo "ainda não disponivel, voltando para o menu"
+sleep 2.0
+menu_debloat
+}
 cache_apps () {
 clear
 echo "limpando cache de apps..."
@@ -8159,119 +12159,126 @@ am start -a android.intent.action.VIEW -d "$url"
 menu_ram () {
 clear
 echo -ne "  
- ${cian} ____                      
- |  _ \    __ _   _ __ ___  
- | |_) |  / _  | |  _   _  \ 
- |  _ <  | (_| | | | | | | |
- |_| \_\  \__,_| |_| |_| |_|${default}
+ ${white}
+   ___    ___    __  ___
+  / _ \  / _ |  /  |/  /
+ / , _/ / __ | / /|_/ / 
+/_/|_| /_/ |_|/_/  /_/  
+                        ${default}
 
- ୨୧ Gerencie sua Ram ୨୧
-                            
-${green}1.${default} fechar todos aplicativos abertos
-${green}2.${default} fechar processos em 2 plano
-${green}0.${default} voltar ao menu
+${cian} ===================================================
+${yellow}|                 Gerencie sua ram                  |
+${cian} ===================================================
+                                
+${yellow}[ 1 ] ${green}fechar aplicativos abertos
+${yellow}[ 2 ] ${green}fechar processos em 2 plano
+${yellow}[ 0 ] ${green}voltar ao menu ${default}
 
 "
 read opcao
 case $opcao in
-  1)
+1)
 loading
- fechar_apps
-  ;;
-  2)
+fechar_apps
+;;
+2)
 loading
 2plano
-  ;;
-  0)
+;;
+0)
 menu_principal
-  ;;
-  *)
+;;
+*)
 echo "Opção inválida."
-    ;;
+;;
 esac
 }
 menu_debloat () {
 clear
-echo -ne "  
-${cian}  ____           _       _                   _   
- |  _ \    ___  | |__   | |   ___     __ _  | |_ 
- | | | |  / _ \ | '_ \  | |  / _ \   / _  | | __|
- | |_| | |  __/ | |_) | | | | (_) | | (_| | | |_ 
- |____/   \___| |_.__/  |_|  \___/   \____|  \__|${default}
+echo -ne "  ${white}
+   ___    ____   ___    __   ____    ___  ______
+  / _ \  / __/  / _ )  / /  / __ \  / _ |/_  __/
+ / // / / _/   / _  | / /__/ /_/ / / __ | / /   
+/____/ /___/  /____/ /____/\____/ /_/ |_|/_/    ${default}
 
-୨୧ Desinstale apps inuteis do seu dispositivo ୨୧
+                                                
+${cian} ===================================================
+${yellow}|    Desinstale apps inuteis do seu sistema         |
+${cian} ===================================================
 
-➺ ATENÇÃO: selecionar a opção errada pode causar bugs ou ate bootlooping !!!             
+${red}➺ ATENÇÃO: selecionar a opção errada pode causar bugs ou ate bootlooping !!!             
 
-${green}1.${default} debloat xiaomi
-${green}2.${default} debloat motorola
-${green}3.${default} debloat samsung
-${green}0.${default} voltar ao menu principal
+${yellow}[ 1 ] ${green}debloat xiaomi
+${yellow}[ 2 ] ${green}debloat motorola
+${yellow}[ 3 ] ${green}debloat samsung
+${yellow}[ 0 ] ${green}voltar ao menu principal
 "
 read opcao
 case $opcao in
-  1)
-  loading
- debloat_xiaomi
-  ;;
-  2)
-  loading
+1)
+loading
+debloat_xiaomi
+;;
+2)
+loading
 debloat_motorola
-  ;;
-  3)
-  loading
+;;
+3)
+loading
 debloat_samsung
-  ;;
-  0)
+;;
+0)
 menu_principal
-  ;;
-  *)
-    echo "Opção inválida."
-    ;;
+;;
+*)
+echo "Opção inválida."
+;;
 esac
 }
 menu_apps () {
 clear
-echo "${cian}     _                          "
-echo "    / \     _ __    _ __    ___ "
-echo "   / _ \   | '_ \  | '_ \  / __|"
-echo "  / ___ \  | |_) | | |_) | \__ |"
-echo " /_/   \_\ | .__/  | .__/  |___/"
-echo "           |_|     |_|         ${default}"
-echo -n "
+echo -n "${white}
+   ___    ___    ___    ____
+  / _ |  / _ \  / _ \  / __/
+ / __ | / ___/ / ___/ _\ \  
+/_/ |_|/_/    /_/    /___/  ${default}
+                             
+                             
+${cian} ===================================================
+${yellow}|         Otimizações para aplicativos              |
+${cian} ===================================================
 
-୨୧ Gerencie otimizações para os apps do seu dispositivo ୨୧
-
-${green}1.${default} limpar cache de apps
-${green}0.${default} voltar ao menu
+${yellow}[ 1 ] ${green}limpar cache de apps
+${yellow}[ 2 ] ${green}compilar apps
+${yellow}[ 0 ] ${green}voltar ao menu ${default}
 
 "
 read opcao
 case $opcao in
-  1)
- loading
- cache_apps
-  ;;
-  0)
+1)
+loading
+cache_apps
+;;
+2)
+compilar_menu
+;;
+0)
 menu_principal
-  ;;
-  *)
-    echo "Opção inválida."
-    ;;
+;;
+*)
+echo "Opção inválida."
+;;
 esac
 }
 menu_sobre () {
 clear
-  echo -e "${cian}  ____            _                   "
-  sleep 0.1
-  echo -e " / ___|    ___   | |__    _ __    ___ "
-  sleep 0.1
-  echo -e " \___ \   / _ \  |  _ \  |  __|  / _ |"
-  sleep 0.1
-  echo -e "  ___) | | (_) | | |_) | | |    |  __/"
-  sleep 0.1
-  echo -e " |____/   \___/  |____/  |_|     \___|${default}"
-  echo -ne "
+
+  echo -ne " ${white}
+   ____  ____    ___    ___    ____
+  / __/ / __ \  / _ )  / _ \  / __/
+ _\ \  / /_/ / / _  | / , _/ / _/  
+/___/  \____/ /____/ /_/|_| /___/   ${default}
+                                   
 
 este modulo foi feito para ajudar pessoas que não 
 possuem acesso ao superusuário (root)
@@ -8283,31 +12290,362 @@ a reutilização dele esta permitida desde que seja mostrado
 os créditos ao criador oficial.
 
 
-${purple}VERSÃO: ${yellow}1.0
+${purple}VERSÃO: ${yellow}1.5
 ${purple}CRIADOR: ${yellow}Tiago Olivv${default}
 
-${green}1. ${default}acessar o canal do Tiago Olivv
-${green}2. ${default}servidor do Discord de suporte
-${green}0. ${default}voltar ao menu principal
+${yellow}[ 1 ] ${green}acessar o canal do Tiago Olivv
+${yellow}[ 2 ] ${green}servidor do Discord de suporte
+${yellow}[ 0 ] ${green}voltar ao menu principal ${default}
 "
 read opcao
 case $opcao in
-  1)
- loading
+1)
+loading
 youtube_site
-  ;;
-  2)
- loading
- discord_site
-  ;;
-  0)
- menu_principal
-  ;;
-  *)
-    echo "Opção inválida."
-    ;;
+;;
+2)
+loading
+discord_site
+;;
+0)
+menu_principal
+;;
+*)
+echo "Opção inválida."
+;;
+esac
+}
+compilar_menu() {
+clear
+echo -n "
+  _____  ____    __  ___   ___    ____   __    ____
+ / ___/ / __ \  /  |/  /  / _ \  /  _/  / /   / __/
+/ /__  / /_/ / / /|_/ /  / ___/ _/ /   / /__ / _/  
+\___/  \____/ /_/  /_/  /_/    /___/  /____//___/  
+
+
+${cian} ===================================================
+${yellow}|     Compile apps para melhor desempenho           |
+${cian} ===================================================
+                                        
+➺ everything para compilação completa
+➺ speed para compilação basica
+
+${yellow}[ 1 ] ${green}menu everything
+${yellow}[ 2 ] ${green}menu speed
+${yellow}[ 0 ] ${green}voltar ao menu principal ${default}
+
+"
+read opcao
+case $opcao in
+1)
+compilar_everything_menu 
+;;
+2)
+compilar_speed_menu
+;;
+0)
+menu_apps
+;;
+*)
+echo "Opção inválida."
+;;
+esac
+}
+compilar_everything_menu() {
+clear
+echo -n "
+   ${white}                        
+   ____  _   __   ____   ___  __  __
+  / __/ | | / /  / __/  / _ \ \ \/ /
+ / _/   | |/ /  / _/   / , _/  \  / 
+/___/   |___/  /___/  /_/|_|   /_/  ${default}
+                                    
+                              
+${cian} ===================================================
+${yellow}|                     EVERYTHING                    |
+${cian} ===================================================
+
+➺ neste modo seus apps serão completamente compilados para melhorar a fluidez na execução e no uso
+
+${yellow}[ 1 ] ${green}compilar todos apps
+${yellow}[ 2 ] ${green}compilar apps basicos (aplicativos instalados pelo usuario)
+${yellow}[ 0 ] ${green}voltar ao menu de compilação ${default}
+
+"
+read opcao
+case $opcao in
+1)
+compilar_everything_geral
+;;
+2)
+compilar_everything_basico
+;;
+0)
+compilar_menu
+;;
+*)
+echo "Opção inválida."
+;;
+esac
+}
+compilar_speed_menu() {
+clear
+echo -n "
+                         
+   ____   ___    ____   ____   ___ 
+  / __/  / _ \  / __\  / __/  / _ -
+ _\ \   / ___/ / _/   / _/   / // /
+/___/  /_/    /___/  /___/  /____/ 
+                                   
+
+${cian} ===================================================
+${yellow}|                       SPEED                       |
+${cian} ===================================================
+
+➺ neste modo seus apps serão compilados priorizando a velocidade de carregamento inicial
+
+
+${yellow}[ 1 ] ${green}compilar todos apps
+${yellow}[ 2 ] ${green}compilar apps basicos (aplicativos instalados pelo usuario)
+${yellow}[ 0 ] ${green}voltar ao menu de compilação ${default}
+
+"
+read opcao
+case $opcao in
+1)
+compilar_speed_geral
+;;
+2)
+compilar_speed_basico
+;;
+0)
+compilar_menu
+;;
+*)
+echo "Opção inválida."
+;;
+esac
+}
+compilar_everything_geral() {
+loading
+echo "iniciando a compilação de todos os apps no modo ${roxo}Everything${default}"
+sleep 0.5
+echo ""
+echo "recomenda-se não sair desta tela ate completar a compilação"
+sleep 0.8
+echo ""
+echo "pode demorar cerca de 15 minutos dependendo da quantidade de aplicativos"
+sleep 1.5
+clear
+cmd package compile -m everything -f -a
+}
+compilar_speed_geral() {
+loading
+echo "iniciando a compilação de todos os apps no modo ${roxo}Speed${default}"
+sleep 0.5
+echo ""
+echo "recomenda-se não sair desta tela ate completar a compilação"
+sleep 0.8
+echo ""
+echo "pode demorar cerca de 15 minutos dependendo da quantidade de aplicativos"
+sleep 1.5
+clear
+cmd package compile -m speed -f -a
+}
+compilar_everything_basico() {
+loading
+echo "iniciando a compilação dos apps basicos ${roxo}Everything${default}"
+sleep 0.5
+echo ""
+echo "recomenda-se não sair desta tela ate completar a compilação"
+sleep 0.8
+echo ""
+echo "pode demorar cerca de 15 minutos dependendo da quantidade de aplicativos"
+sleep 1.5
+clear
+pacotes_a_serem_ignorados=""
+packages=$(pm list packages -3)
+IFS=$'\n'
+for package in $packages; do
+package_name=$(echo "$package" | cut -d':' -f2)
+case " $pacotes_a_serem_ignorados " in
+*" $package_name "*)
+;;
+*)
+echo "App Compilado: $package_name"
+cmd package compile -m everything -f "$package_name"
+;;
+esac
+done
+}
+compilar_speed_basico() {
+loading
+echo "iniciando a compilação dos apps basicos ${roxo}Speed${default}"
+sleep 0.5
+echo ""
+echo "recomenda-se não sair desta tela ate completar a compilação"
+sleep 0.8
+echo ""
+echo "pode demorar cerca de 15 minutos dependendo da quantidade de aplicativos"
+sleep 1.5
+clear
+pacotes_a_serem_ignorados=""
+packages=$(pm list packages -3)
+IFS=$'\n'
+for package in $packages; do
+package_name=$(echo "$package" | cut -d':' -f2)
+case " $pacotes_a_serem_ignorados " in
+*" $package_name "*)
+;;
+*)
+echo "App Compilado: $package_name"
+cmd package compile -m speed -f "$package_name"
+;;
+esac
+done
+}
+game_booster() {
+    script
+clear
+echo -n "
+
+
+  _____   ___    __  ___   ____
+ / ___/  / _ |  /  |/  /  / __/ 
+/ (_ /  / __ | / /|_/ /  / _/
+\___/  /_/ |_|/_/  /_/  /___/
+   ___   ____   ____    ____ ______   ____   ___ 
+  / _ ) / __ \ / __ \  / __//_  __/  / __/  / _ -
+ / _  |/ /_/ // /_/ / _\ \   / /    / _/   / , _/
+/____/ \____/ \____/ /___/  /_/    /___/  /_/|_| 
+                                                                                     
+                                   
+
+${cian} ===================================================
+${yellow}|        Game Optimizer SpeedX Termux - 1.0         |
+${cian} ===================================================
+
+➺ veja a introdução para saber mais sobre os modos do Game Booster
+
+
+${yellow}[ 1 ] ${green}ativar modo básico  (ainda não disponivel)
+${yellow}[ 2 ] ${green}ativar modo medio   (ainda não disponivel)
+${yellow}[ 3 ] ${green}ativar modo extremo (ainda não disponivel)
+${yellow}[ 4 ] ${green}ver introdução      (ainda não disponivel)
+${yellow}[ 0 ] ${green}voltar ao menu principal ${default}
+
+"
+read opcao
+case $opcao in
+1)
+game_booster
+;;
+2)
+game_booster
+;;
+3)
+game_booster
+;;
+4)
+game_booster
+;;
+0)
+menu_principal
+;;
+*)
+echo "Opção inválida."
+;;
+esac
+}
+screen_recorder() {
+    script
+clear
+echo -n "
+
+                                                                                     
+                                   
+
+${cian} ===================================================
+${yellow}|             Screen Recorder - Versão 1.0          |
+${cian} ===================================================
+
+➺ um gravador de tela mais otimizado e melhorado
+
+
+${yellow}[ 1 ] ${green}gravar sem audio
+${yellow}[ 2 ] ${green}gravar com audio (ainda não disponivel)
+${yellow}[ 0 ] ${green}voltar ao menu principal ${default}
+
+"
+read opcao
+case $opcao in
+1)
+rec_noaudio
+;;
+2)
+screen_recorder
+;;
+0)
+menu_principal
+;;
+*)
+echo "Opção inválida."
+;;
+esac
+}
+rec_noaudio() {
+    script
+loading
+clear
+nome_arquivo="/sdcard/$(date +'%Y%m%d_%H%M%S').mp4"
+pid_gravacao=""
+screenrecord "$nome_arquivo" --bit-rate 20000000 --output-format mp4 &
+pid_gravacao=$!
+encerrar_gravacao() {
+if [ -n "$pid_gravacao" ]; then
+kill -s INT "$pid_gravacao"  # Envia um sinal de interrupção para finalizar a gravação
+wait "$pid_gravacao"  # Aguarda até que a gravação termine
+echo ""
+echo "Gravação de tela encerrada. O arquivo está em: $nome_arquivo"
+nrec="/sdcard/debug.mp4"
+pid_rec=""
+screenrecord "$nrec" &
+pid_rec=$!
+debug_rec() {
+if [ -n "$pid_rec" ]; then
+kill -s INT "$pid_rec"
+wait "$pid_rec"
+sleep 1.0
+rm /sdcard/debug.mp4
+screen_recorder
+else
+echo "Nothing"
+fi
+}
+sleep 3.0
+debug_rec
+else
+echo "Nenhuma gravação de tela ativa."
+fi
+}
+echo -n "
+Gravação de tela iniciada... 
+
+1- parar a gravação
+"
+read opcao
+case $opcao in
+1)
+encerrar_gravacao
+;;
+0)
+encerrar_gravacao
+;;
+*)
+rec_noaudio
+;;
 esac
 }
 script
-verificacao
 menu_principal
