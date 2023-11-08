@@ -11985,15 +11985,6 @@ echo "${yellow}by: Tiago Olivv${default}"
 sleep 0.2
 echo "${white}versão 1.5${default}"
 sleep 1.0
-script() {
-aq="$0"
-nd=27339
-na=$(wc -c < "$aq") 
-if [ "$na" -ne "$nd" ]; then 
-exit 1 
-fi
-}
-script
 clear
 loading () {
 clear
@@ -12014,7 +12005,7 @@ sleep 0.1
 clear
 }
 menu_principal () { 
- script
+ 
   clear
   echo -n "         
     ${white}
@@ -12506,7 +12497,6 @@ esac
 done
 }
 game_booster() {
-    script
 clear
 echo -n "
 
@@ -12559,7 +12549,6 @@ echo "Opção inválida."
 esac
 }
 screen_recorder() {
-    script
 clear
 echo -n "
 
@@ -12595,7 +12584,6 @@ echo "Opção inválida."
 esac
 }
 rec_noaudio() {
-    script
 loading
 clear
 nome_arquivo="/sdcard/$(date +'%Y%m%d_%H%M%S').mp4"
@@ -12647,5 +12635,4 @@ rec_noaudio
 ;;
 esac
 }
-script
 menu_principal
